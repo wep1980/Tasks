@@ -1,4 +1,4 @@
-package com.devwaldirep.anotacao.model;
+package com.devwaldirep.task.model;
 
 import java.time.LocalDateTime;
 
