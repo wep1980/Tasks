@@ -1,22 +1,14 @@
 package com.devwaldirep.task;
 
-import java.time.LocalDateTime;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import com.devwaldirep.task.model.Tasks;
-import com.devwaldirep.task.repository.TaskRepository;
 
 @SpringBootApplication
 public class TaskApplication {
 	
 	
 	
-	@Autowired
+	/*@Autowired
 	private TaskRepository repository;
 	
 	
@@ -38,7 +30,7 @@ public class TaskApplication {
 			}
 		};
 		
-	}
+	}*/
 	
 	
 	
