@@ -21,7 +21,7 @@ import com.devwaldirep.task.repository.TaskRepository;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class TaskResource {
 
 	
