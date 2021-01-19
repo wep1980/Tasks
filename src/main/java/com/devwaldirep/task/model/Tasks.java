@@ -31,12 +31,12 @@ public class Tasks {
 	@Column
 	private Boolean done;
 	
-	@Column
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	@JsonFormat(pattern = "dd/MM/yyyy HH:mm")
 	private LocalDateTime createdDate;
 	
 	// Marca a data e a hora que a tarefa foi feita
-	@Column
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	@JsonFormat(pattern = "dd/MM/yyyy HH:mm")
 	private LocalDateTime doneDate;
 	
